@@ -1,0 +1,197 @@
+
+.wrp .carousel-control-next {
+  width: 6vw !important; 
+  right: 0; 
+}
+
+.wrp .carousel-control-prev {
+  left: 0 !important;
+  width: 6vw !important;
+}
+
+.wrp .carousel-control-next-icon,
+.wrp .carousel-control-prev-icon {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+}
+
+.wrp .carousel .carousel-indicators button {
+  width: 200px;
+  height: 2px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrp .carousel .carousel-indicators button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%; 
+  width: 100%;
+  height: 100%;
+  background-color:white;
+}
+
+.wrp .carousel .carousel-indicators button.active::before {
+  left: 0; 
+  transition: left 3.5s linear;
+}
+
+
+.wrp .custom-carousel-caption1 {
+  position: absolute;
+  left: 10px;
+  top: 36%;
+  transform: translateX(10%);
+  color: white;
+  font-size: 1vw; 
+}
+.wrp .carousel.fade1 .carousel-inner .carousel-item {
+  opacity: 0.8;
+  transition: opacity 0.05s ease-in-out;
+}
+
+.wrp carousel.fade1 .carousel-inner .carousel-item.active {
+  opacity: 1;
+}
+
+
+
+
+
+.wrp .carousel .carousel-indicators button {
+  width: 10vw; 
+  height: 2px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrp .carousel .carousel-indicators button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.wrp .custom-carousel-caption1 {
+  left: 0.3vw; 
+  top: 15vw; 
+  color: white;
+  font-size: 2vw; 
+}
+
+.wrp .carouselcaption1 {
+  max-width: 50vw;
+  font-size: 3vw; 
+}
+
+.wrp .carouselcaption2 {
+  max-width: 18.3vw; 
+  font-size: 1.2vw;
+}
+
+.wrp .carouselcaption3 {
+  max-width: 17.4vw;
+  font-size: 1.2vw;
+}
+
+.wrp .cc {
+  padding: 0.6vw;
+  border-radius: 3vw; 
+  max-width: 10vw;
+  border: none;
+  margin-right: 1vw;
+}
+
+.wrp .carousel.fade1 .carousel-inner .carousel-item {
+  opacity: 0.8;
+  transition: opacity 0.05s ease-in-out;
+}
+
+.wrp .carousel.fade1 .carousel-inner .carousel-item.active {
+  opacity: 1;
+}
+@media (max-width: 600px) {
+  .wrp .custom-carousel-caption1 {
+    left: 0.3vw; 
+    top: 18vw; 
+    color: white;
+    font-size: 5vw; 
+  }
+  .wrp .carouselcaption1 {
+    max-width: 100vw;
+    font-size: 8vw; 
+  }
+  
+  .wrp .carouselcaption2 {
+    max-width: 90vw; 
+    font-size: 5vw;
+  }
+  
+  .wrp .carouselcaption3 {
+    max-width: 92vw;
+    font-size: 4vw;
+  }
+  .wrp .cc {
+    padding: 0.6vw;
+    border-radius: 3vw; 
+    max-width: 30vw;
+    border: none;
+    margin-right: 1vw;
+  }
+  .wrp .carousel .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+  }
+  .wrp .carousel .carousel-indicators button.active::before {
+    left: 0; 
+    transition: none;
+  }
+  .wrp .carousel .carousel-indicators button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background-color: white;
+  }
+  .carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: none;
+}
+.carousel-control-next {
+position: static;
+display: none!important;
+}
+
+.carousel-control-prev {
+display: none!important;
+}
+}
+.wrp .mobile-styles {
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  .wrp .carousel-control-next-icon,
+.wrp .carousel-control-prev-icon {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  padding: -1vw;
+  width: 1.55rem;
+  height: 1.55rem;
+ margin-top: 4vw;
+}
+}

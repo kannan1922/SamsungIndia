@@ -1,0 +1,228 @@
+.wrapp{
+  margin-top: 2vw;
+}
+.wrapp .carousel-control-prev{
+    font-size: 200px; /* Adjust the font size to change the button size */
+    color: black;
+  }
+  
+  .wrapp .carousel .carousel-control-prev{
+    width: -10%;
+  }
+ 
+ .wrapp .carousel-control-next {
+    right: 0 !important;
+    width: 6% !important;
+  }
+  .wrapp .carousel-control-prev{
+    left: 0 !important;
+    width: 6% !important;
+  }
+  .wrapp .carousel-control-next-icon {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin-right: 0; 
+    border-radius: 50%;
+    padding: 17px;
+  }
+  .wrapp .carousel-control-prev-icon {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    border-radius: 50%;
+    padding: 17px;
+  }
+
+  .wrapp .carousel .carousel-indicators button {
+    width: 200px;
+    height: 2px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    display: none;
+  }
+
+  
+  /* Add this to your custom CSS file */
+  
+  
+  
+  
+  .wrapp .carousel .carousel-control-prev {
+    width: 6%; /* Adjust width as needed */
+  }
+  
+  .wrapp .carousel-control-next {
+    right: 0 !important;
+    width: 6% !important;
+    display: none;
+  }
+  
+  .wrapp .carousel-control-prev {
+    left: 0 !important;
+    width: 6% !important;
+    display: none;
+  }
+  
+  .wrapp .carousel-control-next-icon,
+  .wrapp .carousel-control-prev-icon {
+    padding: 1.2vw; /* Adjust padding using viewport width */
+  }
+  
+  .wrapp .carousel .carousel-indicators button {
+    width: 10vw; /* Adjust width using viewport width */
+    height: 2px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border: none;
+  }
+  
+ .wrapp .carousel .carousel-indicators button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  
+
+
+ .wrapp .cc1{
+    padding: 0.6vw 0.9vw ; /* Adjust padding using viewport width */
+    border-radius: 2vw; /* Adjust border-radius using viewport width */
+    max-width: 10vw; /* Adjust max-width using viewport width */
+    border: none;
+    /* transform: translateX(-2%); */
+    left: 2%;
+    font-size: 1.1vw;
+  }
+ .wrapp .carouselcaptionz3{
+    font-size: 1.4vw;
+  }
+
+ .wrapp .carouselcaptionz1{
+    font-size: 2vw;
+  }
+ .wrapp .carouselcaptionz2{
+    font-size: 1.4vw;
+  }
+  
+  @media (max-width: 550px) {
+    .carousel .carousel-indicators button {
+      width: 20px;
+      height: 20px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 50%;
+    }
+    .carousel .carousel-indicators button.active::before {
+      left: 0; 
+      transition: none;
+    }
+    .carousel .carousel-indicators button::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+  
+      background-color: white;
+    }
+    .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    display: none;
+  }
+  .carousel-control-next {
+  position: static;
+  display: none!important;
+  }
+  
+  .carousel-control-prev {
+  display: none!important;
+  }
+  .wrapp  .custom-indicators1 span {
+    cursor: pointer;
+    padding: 1vw;
+    margin: 1vw auto;
+    font-size: 4vw !important;
+    background-color:transparent;
+    border: none;
+    color: white;
+  }
+
+  .wrapp .custom-indicators1 {
+    display: flex;
+    justify-content: center;
+    margin:1vw auto;
+    margin-top: 10px;
+    position: absolute;
+  
+    margin-left :17vw !important;
+    z-index: 100; /* Ensure the indicators appear above the images */
+  }
+  .wrapp    .custom-carousel-captionz1 {
+    display: none;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+  }
+
+  }
+  .mobile-styles {
+    /* Add styles specific to mobile devices here */
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+  }
+ .wrapp .custom-carousel-container1 {
+    position: relative;
+  }
+  .wrapp .custom-indicators1 {
+    display: flex;
+    justify-content: center;
+    margin:1vw auto;
+    margin-top: 10px;
+    position: absolute;
+  
+    margin-left:33vw;
+    z-index: 100; /* Ensure the indicators appear above the images */
+  }
+  .wrapp  .custom-indicators1 span {
+        cursor: pointer;
+        padding: 1vw;
+        margin: 1vw auto;
+        font-size: 1.9vw;
+        background-color:transparent;
+        border: none;
+        color: white;
+      }
+  
+     .wrapp    .custom-carousel-captionz1 {
+        transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+        position: absolute;
+        top: 82%;
+        left: 50%;
+         transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+        opacity: 0;
+      }
+      .wrapp  .custom-carousel-captionz1.left {
+        transform: translateX(-100%) translate(-50%, -50%);
+      }
+      .wrapp .custom-carousel-captionz1.right {
+        transform: translateX(100%) translate(-50%, -50%);
+      }
+      .wrapp .custom-carousel-captionz1.show {
+        transform: translateX(0) translate(-50%, -50%);
+        opacity: 1;
+      }

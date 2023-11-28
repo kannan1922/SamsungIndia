@@ -1,0 +1,43 @@
+.imageStyle {
+    position: relative;
+  }
+  
+  .summa {
+    width: 100%; 
+  }
+  
+  .textOverImageStyle {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3vw;
+  }
+  
+  .textOverImageStyle1{
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2vw;
+  }
+
+  .textOverImageStyle2{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2vw;
+  }
+  .tabswitchbutton{
+    border: none;
+    background-color: white;
+    position: absolute;
+  }
+  .tabswitchwrap{
+position: relative;
+  }
+

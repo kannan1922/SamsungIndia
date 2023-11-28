@@ -1,0 +1,127 @@
+
+@font-face {
+    font-family: "samsung400";
+    src: url("/font/SamsungOne-400.ttf") format("truetype");
+  }
+
+.foot{
+    margin-top: 10vw;
+    line-height: 1.33;
+    font-size: .83333333vw;
+      margin-left: 10vw;
+      font-family: "samsung400";
+  }
+  .foots{
+    margin-top: 10px;
+    font-size: .83333333vw;
+      margin-left: 1.5rem;
+  }
+  .icon1{
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .boxfooter{
+    display: flex;
+    flex-direction: row;
+    font-family: "samsung400";
+  }.foot p{
+    margin: 1.1111111vw;
+  }
+  .insidebox {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* margin-top: 15px; */
+    border-top: 1.5px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding-bottom: 30px;
+    color: black;
+  }
+  
+  .boxtext1{
+    font-size: 1.4vw;
+    padding-bottom: 2vw;
+    font-weight: bold;
+  }
+  .boxtext{
+    padding-bottom: 0vw;
+    padding-bottom:  1.16666667vw;
+    font-size: .97222222vw;
+
+  }
+
+@media only screen and (max-width: 550px) {
+  .foot p{
+    margin-bottom: 2.11111vw;
+  }
+.end{
+  margin-top: 5vw;
+  /* line-height: 1.33; */
+  font-size: 3vw;
+    margin-left: 1vw;
+    font-family: "samsung400";
+}
+.foot{
+  margin-top: 5vw;
+  /* line-height: 1.33; */
+  font-size: 3vw;
+    margin-left: 1vw;
+    font-family: "samsung400";
+}
+.insidebox{
+  display: none;
+}
+.totalwrap{
+  display: block !important;
+  
+}
+
+.Res-txt{
+  padding-left: 1vw;
+}
+.Res-footer{
+  font-size: 5vw;
+  font-family: "samsung";
+  cursor: pointer;
+  padding: 3vw;
+  padding-right: 27vw;
+  border-top: 1px solid #ccc;
+}
+.Res-Dropdown{
+display:flex;
+flex-direction: column;
+font-family: "samsung400";
+padding-left: 3vw;
+}
+.Dropdown {
+  font-size: 5vw;
+  font-family: "samsung";
+  overflow: hidden;
+  animation: slideIn12 0.3s forwards;
+  /* padding: 1vw; */
+}
+@keyframes slideIn12 {
+  from {
+    opacity: 0;
+    height: 0px;
+  }
+  to {
+    opacity: 1;
+    height: 220px;
+  }}
+
+.Res-Dropdown {
+  font-size: 4vw;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust the box-shadow as needed */
+}
+}
+
+.totalwrap{
+  display: none;
+}

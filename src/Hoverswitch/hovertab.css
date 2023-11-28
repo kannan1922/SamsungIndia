@@ -1,0 +1,205 @@
+
+@font-face {
+    font-family: "samsung";
+    src: url("/font/SamsungOne-700.ttf") format("truetype");
+  }
+  .imagehoverwrap{
+    position:relative;
+  }
+  .image-container {
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .imagehover {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .imagehover:hover {
+    transform: scale(1.1); 
+  }
+  
+  .inner-div1 {
+    flex: 1;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  /* .tabcontent{
+    position: absolute;
+  } */
+  .wrappertab{
+    display: flex;
+    font-family: "samsung";
+    position: relative;
+    padding-top: 10vw
+    /* flex-wrap: wrap;  */
+  }
+  .inner-div2{
+    flex: 1;
+    background-color: transparent ;
+    align-items: start;
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+    padding-top: 4vw;
+    position:relative;
+    padding-left: 5vw; /* Adjust the left padding using vw */
+  }
+  .tabpara{
+    border: none;
+    font-size: 1.2vw;  
+    font-weight: bolder;
+    background-color: transparent;
+    margin-bottom: 1.3vw;
+    margin-top: 2.5vw;
+    padding-right: 3vw
+  }
+  .tablinks{
+    border: none;
+    font-size: 1.7vw;  
+    font-weight: bolder;
+    background-color: transparent;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+  }
+  .flexing{
+    display: flex;
+  }
+  .lines1 {
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+  }
+  
+  .lines1.active {
+    background-color:black ;
+    width: 48vw;
+    transition: 1s;
+  }
+
+
+  .lines2 {
+    height: 2px;
+    background-color: transparent;
+  }
+  
+  .lines2.active {
+    background-color:rgba(0, 0, 0, .4) ;
+    width: 35vw;
+    margin-left: 5.2vw;
+  }
+
+
+  .para1 {
+    display: none;
+  }
+  
+  .para1.active {
+    display: block;
+    margin-left: 5.2vw;
+    text-decoration: underline;
+    padding-bottom: 0vw;
+    font-size: 1.2vw;
+  }
+/* 
+  @media (max-width: 768px) {
+    .tabpara,
+    .tablinks {
+        font-size: 6vw;
+    }
+
+    .lines2 {
+        max-width: 500px;
+    }
+} */
+
+  /* @media (max-width: 768px) {
+    .tabpara,
+    .tablinks {
+      font-size: 6vw; 
+    }
+    
+    .lines2 {
+      max-width: 500px; 
+    }
+  } */
+ /* Existing styles */
+
+ .dot-button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  margin: 0 5px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 550px) {
+  .wrappertab {
+    flex-direction: column;
+  }
+
+  .inner-div1,
+  .inner-div2 {
+    flex: none;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .inner-div2 {
+    padding-top: 2vw;
+  }
+
+  .tabpara,
+  .tablinks {
+    display: none; /* Hide tabpara and tablinks on smaller screens */
+  }
+
+  .button-container {
+    text-align: center;
+    padding-top: 10px;
+    /* background-color: blue; */
+  }
+
+  .btn-change-image {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.5vw; /* Adjust font size as needed */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .dot-button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 0 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+  }
+  .dot-buttons {
+    display: flex;
+    /* justify-content: end; */
+    margin-top: 10px;
+    margin-left: 30vw;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 5vw;
+    width:30vw;
+    padding: 5px;
+    /* width: 50%; */
+  }
+.inner-div2{
+  display: none;
+}  
+}

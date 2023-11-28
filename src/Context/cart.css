@@ -1,0 +1,137 @@
+/* Font Face */
+@font-face {
+  font-family: "samsung";
+  src: url("/font/SamsungOne-700.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "samsung400";
+  src: url("/font/SamsungOne-400.ttf") format("truetype");
+}
+
+
+/* Cart Styles */
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.total {
+  padding: 1.5vw;
+  font-size: 2vw;
+  width: 100%;
+}
+
+.titel {
+  width: 100%;
+  height: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #142cb8; /* Samsung-like header background color */
+  color: white;
+  margin: 1vw;
+}
+.bg{
+  margin: 2vw;
+}
+
+.cart-Items,
+.cart-Items1 {
+  width: 40vw;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  font-size: 1.5vw;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-bottom: 1vw;
+}
+
+.cart-Items1 {
+  width: 30vw;
+}
+
+.cartItem {
+  width: 40vw;
+  height: 14vw;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin: 1vw;
+  margin-left: 5vw;
+  background-color: white; /* Samsung-like item background color */
+}
+
+.cartItem img {
+  width: 12vw;
+  border-radius: 20px 0 0 20px;
+  height: 12vw;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartItem .description {
+  width: 100%;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  padding-right: 6vw;
+}
+
+.countHandler input {
+  width: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Checkout Styles */
+.checkout button,
+.checkout1 button {
+  width: 14vw;
+  height: 4vw;
+  background-color: #142cb8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin: 8px;
+  cursor: pointer;
+}
+.checkout1{
+display: flex;
+flex-direction: column;
+width: 200%;
+}
+
+.checkout1 button {
+  background-color: blue;
+  margin-left: 12vw;
+}
+
+.empty {
+  padding: 1vw;
+  /* background-color: #142cb8; */
+  width: 100%;
+  text-align: center;
+  margin-top: 1vw;
+  font-family: "samsung";
+
+  /* color: white; */
+}
+.checkout{
+  padding: 30px;
+  max-height: 20vw;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-left: 10vw;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
